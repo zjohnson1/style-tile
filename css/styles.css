@@ -1,0 +1,75 @@
+/* Set Your Own Margin & Padding */
+.pattern-3{
+	background: url(../img/swirl_pattern.png);
+}
+
+.pattern-2{
+	background: url(../img/light_grey.png);
+}
+
+.pattern-1{
+	background: url(../img/escheresque.png);
+}
+
+.color-1{
+	background: #000;
+}
+
+.color-2{
+	background: #FF833A;
+}
+
+.color-3{
+	background: #FFB3C2;
+}
+
+.color-4{
+	background: #c7c0ac;
+}
+
+
+
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	margin: 5px 0 0 0;
+}
+
+h3, h4, p{
+	font-family: 'Arvo', serif;
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	margin-right: 10px;
+	height: 80px;
+	width: 80px;
+	float: left;
+}
+
+.imagery-3, .imagery-1, .imagery-2{
+	height: 125px;
+	width: 125px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
